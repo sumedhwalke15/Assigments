@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 189, 212);
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+.navlink{
+    margin-right: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    justify-content: space-around;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 10px;
+}
