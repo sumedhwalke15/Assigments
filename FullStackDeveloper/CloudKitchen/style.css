@@ -4,7 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(236, 189, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:linear-gradient(135deg,#b3fe31,#ffa751);
+    min-height: 100vh;
+    color:#333;
+}
+header{
+    background-color: rgb(234, 94, 38);
+    color: white;
 }
 .navbar{
 display: flex;
@@ -18,7 +25,7 @@ padding: 20px;
     justify-content: center;
     align-items: center;
 }
-nav ul{
+nav ul{ 
     list-style: none;
     padding: 0;
     margin: 0;
@@ -28,4 +35,100 @@ nav li{
     display: inline-block;
     font-size: 15px;
     margin-right: 10px;
+}
+.box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px);
+}
+
+.heading{
+    max-width: 600px;
+    width: 100%;
+}
+.heading h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.heading p{
+    
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.SearchBox{
+background-color: aliceblue;
+padding: 30px 20px;
+max-width: 500px;
+width: 100%;
+margin: 0 auto;
+position: relative;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+border-radius: 30px;
+}
+.SearchBox input[type="radio"] {
+    display: none;
+}
+.tab{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.tab label{
+    color: #999;
+    cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+ 
+    transition: color 0.2s, border-bottom 0.2s;
+}
+label[for="delivery"] {
+  /* your specific styling here */
+  text-decoration: underline; /* example */
+}
+.tab input{
+    padding:10px ;
+    width: 80%;
+    border-radius: 20px;
+    border: 2px solid #333;
+    margin-bottom: 10px;
+}
+.find-food-btn{
+    color:white;
+    background-color:rgb(255, 98, 0);
+    width: 80%;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: none;
+}
+.text{
+    height: 2px;
+    width: 2px;
+}
+.text1 img {
+    width: 100px;
+    height: 100px;
+}
+.in-container{
+        display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgb(248, 247, 246);
+    
+}
+.Dabda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: inherit;  
 }

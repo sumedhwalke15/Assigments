@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cloud Kitchen</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="navbar">
-
-                <div class="logo">Cloud Kitchen</div>
-                <div class="navlink">
-                    <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Contact</li>
-                        <li>Login</li>
-                    </ul>
-                </div>
-            </div>
+      <nav>
+        <div class="navbar">
+          <div class="logo">Cloud Kitchen</div>
+          <div class="navlink">
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Contact</li>
+              <li>Login</li>
               
-
-        </nav>
-
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    
-</body>
+    <section class="box">
+      <div class="heading">
+        <h1>Are You Starving?</h1>
+        <p>Within a few clicks,find meals that are accessible near you</p>
+      </div>
+       <div class="SearchBox">
+          <div class="tab">
+            <input type="radio" id="delivery" />
+            <label for="Delivery">Delivery</label>
+
+            <input type="radio" id="Pickup" />
+            <label for="pickup">Pickup</label>
+          </div>
+          <div class="form-wrapper">
+            <div class="form-content Delivery">
+              <div class="input-group">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Enter Your Address" />
+              </div>
+              <button class="find-food-btn">Find Food</button>
+            </div>
+          </div>
+        </div>
+    </section>
+  </body>
 </html>
